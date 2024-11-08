@@ -69,7 +69,7 @@ void LevelManager::initializeLevel(LevelType levelType, Pad& pad, Ball& ball, st
 
     if (levelType == LevelType::Level1) {
         bricks.clear();
-        bricks = Brick::createBricks(1, 1, (SCREEN_WIDTH / 16), (SCREEN_HEIGHT / 27));
+        bricks = Brick::createBricks(7, 14, (SCREEN_WIDTH / 16), (SCREEN_HEIGHT / 27));
     }
     else if (levelType == LevelType::Level2) {
         bricks.clear();
