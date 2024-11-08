@@ -104,12 +104,20 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\killi\source\repos\lyo-t2-amiga-p2-10\SFML-2.5.1\include</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Remy\Documents\SFML-2.5.1\include</AdditionalIncludeDirectories>
+>>>>>>> Remy
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\killi\source\repos\lyo-t2-amiga-p2-10\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>C:\Users\Remy\Documents\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+>>>>>>> Remy
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -130,13 +138,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="Ball.cpp" />
     <ClCompile Include="BallEffect.cpp" />
     <ClCompile Include="BallEffectList.cpp" />
+=======
+    <ClCompile Include="BackgroundShader.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BallEffect.cpp" />
+    <ClCompile Include="BallSpeedBoost.cpp" />
+    <ClCompile Include="BallSpeedNerf.cpp" />
+>>>>>>> Remy
     <ClCompile Include="Brick.cpp" />
     <ClCompile Include="BrickTypes.cpp" />
     <ClCompile Include="FileUtils.cpp" />
     <ClCompile Include="Game.cpp" />
+<<<<<<< HEAD
+=======
+    <ClCompile Include="GameOver.cpp" />
+>>>>>>> Remy
     <ClCompile Include="Hud.cpp" />
     <ClCompile Include="LevelGenerator.cpp" />
     <ClCompile Include="LevelManager.cpp" />
@@ -145,6 +165,7 @@
     <ClCompile Include="PadEffect.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pad.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="PadEffectList.cpp" />
     <ClCompile Include="PauseMenu.cpp" />
   </ItemGroup>
@@ -152,10 +173,26 @@
     <ClInclude Include="Ball.h" />
     <ClInclude Include="BallEffect.h" />
     <ClInclude Include="BallEffectList.h" />
+=======
+    <ClCompile Include="PadSpeedBoost.cpp" />
+    <ClCompile Include="PadSpeedNerf.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundShader.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="BallEffect.h" />
+    <ClInclude Include="BallSpeedBoost.h" />
+    <ClInclude Include="BallSpeedNerf.h" />
+>>>>>>> Remy
     <ClInclude Include="Brick.h" />
     <ClInclude Include="BrickTypes.h" />
     <ClInclude Include="FileUtils.h" />
     <ClInclude Include="Game.h" />
+<<<<<<< HEAD
+=======
+    <ClInclude Include="GameOver.h" />
+>>>>>>> Remy
     <ClInclude Include="Hud.h" />
     <ClInclude Include="LevelGenerator.h" />
     <ClInclude Include="LevelManager.h" />
@@ -163,7 +200,12 @@
     <ClInclude Include="Music.h" />
     <ClInclude Include="PadEffect.h" />
     <ClInclude Include="Pad.h" />
+<<<<<<< HEAD
     <ClInclude Include="PadEffectList.h" />
+=======
+    <ClInclude Include="PadSpeedBoost.h" />
+    <ClInclude Include="PadSpeedNerf.h" />
+>>>>>>> Remy
     <ClInclude Include="PauseMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

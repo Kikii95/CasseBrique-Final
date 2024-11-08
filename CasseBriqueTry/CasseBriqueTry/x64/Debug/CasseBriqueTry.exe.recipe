@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\killi\source\repos\lyo-t2-amiga-p2-10\CasseBriqueTry\x64\Debug\CasseBriqueTry.exe</FullPath>
+=======
+      <FullPath>C:\Users\Remy\Documents\GitHub\lyo-t2-amiga-p2-10\CasseBriqueTry\x64\Debug\CasseBriqueTry.exe</FullPath>
+>>>>>>> Remy
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

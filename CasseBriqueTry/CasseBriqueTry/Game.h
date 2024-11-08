@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include <fstream>
+#include "LevelGenerator.h"
 #include "HUD.h"
 #include "Pad.h"
 #include "Ball.h"
@@ -17,7 +18,7 @@
 #include <functional>
 #include "Music.h"
 #include "LevelManager.h"
-
+#include "GameOver.h"
 
 
 #define SCREEN_WIDTH 3840
@@ -54,23 +55,28 @@ private:
     void initializeLevelManager();
     void initializeMusic();
     void update(float deltaTime);
+    void createInitialBricks();
     void checkVictoryCondition();
     void render();
-
+    
     void updateLevelEditor();
     void saveLevel();
     int getNextLevelNumber() ;
 
     int lives = 3;
     bool isBallLaunched = false;
+    bool isGameActive = false;
     bool isMainMenuActive;
     bool isPaused;
     bool isLevelEditorActive = false;
     sf::RectangleShape padShape;
     sf::Clock clock;
     Music music;
+    GameOver gameOverScreen;
     sf::Event event;
     LevelManager levelManager;
+    sf::RectangleShape background;
     std::vector<Ball> activeBalls;
+    LevelGenerator levelGenerator;
     void checkLife();
 };
